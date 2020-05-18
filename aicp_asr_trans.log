@@ -1,0 +1,621 @@
+2020-05-17 01:55:31.865330 I [13074:13074] ~~~~~~ log started ~~~~~~
+2020-05-17 01:55:31.876261 I [13074:13074] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 01:55:31.887367 I [13074:13074] aicp_asr_trans.revision = 10.2.0
+2020-05-17 01:55:31.898508 I [13074:13074] hci-svc.revision = 1.1.0
+2020-05-17 01:55:31.909645 I [13074:13074] service starting
+2020-05-17 01:55:31.954239 I [13074:13091] enter watchdog
+2020-05-17 01:57:49.508294 I [13074:13074] ispeak-engine.version = 10.0.1.4270
+2020-05-17 01:57:49.519208 I [13074:13074] ispeak-engine.compile_date = Apr 28 2020
+2020-05-17 01:57:49.529436 I [13074:13074] ispeak-engine.compile_time = 20:01:14
+2020-05-17 01:57:49.539337 I [13074:13074] ispeak-engine.license = NORMAL
+2020-05-17 01:57:49.651933 I [13074:13074] ispeak init ok
+2020-05-17 01:57:49.661071 I [13074:13157] enter launch-worker
+2020-05-17 01:57:49.751043 I [13074:13155] enter trans-worker
+2020-05-17 01:57:49.782572 I [13074:13153] enter trans-worker
+2020-05-17 01:57:49.800266 I [13074:13156] enter trans-worker
+2020-05-17 01:57:49.807257 I [13074:13154] enter trans-worker
+2020-05-17 01:57:49.819875 I [13074:13074] trans workers started
+2020-05-17 01:57:49.833006 I [13074:13074] starting http
+2020-05-17 01:57:49.845063 I [13074:13074] service started
+2020-05-17 01:57:50.916621 I [13074:13074] got signal 2
+2020-05-17 01:57:50.925859 I [13074:13074] service stopping
+2020-05-17 01:57:50.938266 I [13074:13157] leave launch-worker
+2020-05-17 01:57:50.986526 I [13074:13155] leave trans-worker
+2020-05-17 01:57:51.016202 I [13074:13153] leave trans-worker
+2020-05-17 01:57:51.016216 I [13074:13156] leave trans-worker
+2020-05-17 01:57:51.016227 I [13074:13154] leave trans-worker
+2020-05-17 01:57:52.375340 I [13074:13091] leave watchdog
+2020-05-17 01:57:52.681142 I [13074:13074] trans workers stopped
+2020-05-17 01:57:52.689046 I [13074:13074] stopping http
+2020-05-17 01:57:52.697049 I [13074:13074] service stopped
+2020-05-17 01:57:52.704819 I [13074:13074] ~~~~~~ log stopped ~~~~~~
+2020-05-17 01:57:56.020872 I [13160:13160] ~~~~~~ log started ~~~~~~
+2020-05-17 01:57:56.028404 I [13160:13160] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 01:57:56.036086 I [13160:13160] aicp_asr_trans.revision = 10.2.0
+2020-05-17 01:57:56.043707 I [13160:13160] hci-svc.revision = 1.1.0
+2020-05-17 01:57:56.052311 I [13160:13160] change-service-pid: 13160 => 13171
+2020-05-17 01:57:56.060016 I [13171:13171] change-service-pid: 13160 => 13171
+2020-05-17 01:57:56.067601 I [13171:13171] service starting
+2020-05-17 01:57:56.080094 I [13171:13182] enter watchdog
+2020-05-17 01:58:01.459339 I [13209:13209] ~~~~~~ log started ~~~~~~
+2020-05-17 01:58:01.459345 I [13209:13209] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 01:58:01.459348 I [13209:13209] aicp_asr_trans.revision = 10.2.0
+2020-05-17 01:58:01.459351 I [13209:13209] hci-svc.revision = 1.1.0
+2020-05-17 01:58:01.460130 I [13209:13209] change-service-pid: 13209 => 13226
+2020-05-17 01:58:01.460207 I [13226:13226] change-service-pid: 13209 => 13226
+2020-05-17 01:58:01.460303 I [13226:13226] service starting
+2020-05-17 01:58:01.460469 F [13226:13226] running already! allow only one instance
+2020-05-17 01:58:01.460492 I [13226:13226] ~~~~~~ log aborted ~~~~~~
+2020-05-17 01:58:11.188005 I [13171:13171] ispeak-engine.version = 10.0.1.4270
+2020-05-17 01:58:11.195306 I [13171:13171] ispeak-engine.compile_date = Apr 28 2020
+2020-05-17 01:58:11.202411 I [13171:13171] ispeak-engine.compile_time = 20:01:14
+2020-05-17 01:58:11.209471 I [13171:13171] ispeak-engine.license = NORMAL
+2020-05-17 01:58:11.333653 I [13171:13171] ispeak init ok
+2020-05-17 01:58:11.341660 I [13171:13253] enter launch-worker
+2020-05-17 01:58:11.655242 I [13171:13249] enter trans-worker
+2020-05-17 01:58:11.703205 I [13171:13251] enter trans-worker
+2020-05-17 01:58:11.718019 I [13171:13252] enter trans-worker
+2020-05-17 01:58:11.736072 I [13171:13250] enter trans-worker
+2020-05-17 01:58:11.744301 I [13171:13171] trans workers started
+2020-05-17 01:58:11.756600 I [13171:13171] starting http
+2020-05-17 01:58:11.766247 I [13171:13171] service started
+2020-05-17 01:58:11.775612 I [13171:13171] running in background, no more console log
+2020-05-17 05:37:51.504245 I [13171:13253] check[5ec05d2f00000002]: begin
+2020-05-17 05:37:51.504769 I [13171:13253] check[5ec05d2f00000002]: done
+2020-05-17 05:37:51.505209 I [13171:13249] trans[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-17 05:37:51.506712 I [13171:13249] trans[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-17 05:37:51.507969 I [13171:13249] trans[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-17 05:37:51.921733 I [13171:13249] trans[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-17 05:37:51.922309 I [13171:13249] trans[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-17 05:37:51.922587 I [13171:13249] ispeak[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-17 05:44:01.785643 I [13171:13249] ispeak[5ec05d2f00000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak done (code = 4000)
+2020-05-17 05:56:14.769672 I [20349:20349] ~~~~~~ log started ~~~~~~
+2020-05-17 05:56:14.772502 I [20349:20349] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 05:56:14.775621 I [20349:20349] aicp_asr_trans.revision = 10.2.0
+2020-05-17 05:56:14.778850 I [20349:20349] hci-svc.revision = 1.1.0
+2020-05-17 05:56:14.783269 I [20349:20349] change-service-pid: 20349 => 20360
+2020-05-17 05:56:14.786972 I [20360:20360] change-service-pid: 20349 => 20360
+2020-05-17 05:56:14.790682 I [20360:20360] service starting
+2020-05-17 05:56:14.799529 I [20360:20371] enter watchdog
+2020-05-17 05:56:30.743014 I [20360:20360] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-17 05:56:30.746706 I [20360:20360] ispeak-engine.compile_date = Apr 28 2020
+2020-05-17 05:56:30.750392 I [20360:20360] ispeak-engine.compile_time = 20:00:23
+2020-05-17 05:56:30.754105 I [20360:20360] ispeak-engine.license = NORMAL
+2020-05-17 05:56:30.837857 I [20360:20360] ispeak init ok
+2020-05-17 05:56:30.841952 I [20360:20405] enter launch-worker
+2020-05-17 05:56:30.922247 I [20360:20404] enter trans-worker
+2020-05-17 05:56:30.922255 I [20360:20402] enter trans-worker
+2020-05-17 05:56:30.935845 I [20360:20401] enter trans-worker
+2020-05-17 05:56:30.940145 I [20360:20403] enter trans-worker
+2020-05-17 05:56:30.944231 I [20360:20360] trans workers started
+2020-05-17 05:56:30.948558 I [20360:20360] starting http
+2020-05-17 05:56:30.953048 I [20360:20360] service started
+2020-05-17 05:56:30.957411 I [20360:20360] running in background, no more console log
+2020-05-17 05:57:23.224329 I [20360:20405] check[5ec061c300000003]: begin
+2020-05-17 05:57:23.224855 I [20360:20405] check[5ec061c300000003]: done
+2020-05-17 05:57:23.225426 I [20360:20401] trans[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-17 05:57:23.227094 I [20360:20401] trans[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-17 05:57:23.228271 I [20360:20401] trans[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-17 05:57:23.488253 I [20360:20401] trans[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-17 05:57:23.488800 I [20360:20401] trans[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-17 05:57:23.489088 I [20360:20401] ispeak[5ec061c300000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-17 07:45:32.868603 I [23685:23685] ~~~~~~ log started ~~~~~~
+2020-05-17 07:45:32.876587 I [23685:23685] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 07:45:32.884736 I [23685:23685] aicp_asr_trans.revision = 10.2.0
+2020-05-17 07:45:32.892957 I [23685:23685] hci-svc.revision = 1.1.0
+2020-05-17 07:45:32.902553 I [23685:23685] change-service-pid: 23685 => 23696
+2020-05-17 07:45:32.911143 I [23696:23696] change-service-pid: 23685 => 23696
+2020-05-17 07:45:32.919443 I [23696:23696] service starting
+2020-05-17 07:45:32.969257 I [23696:23707] enter watchdog
+2020-05-17 07:46:01.774778 I [23739:23739] ~~~~~~ log started ~~~~~~
+2020-05-17 07:46:01.774784 I [23739:23739] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 07:46:01.774787 I [23739:23739] aicp_asr_trans.revision = 10.2.0
+2020-05-17 07:46:01.774789 I [23739:23739] hci-svc.revision = 1.1.0
+2020-05-17 07:46:01.775872 I [23739:23739] change-service-pid: 23739 => 23755
+2020-05-17 07:46:01.775976 I [23755:23755] change-service-pid: 23739 => 23755
+2020-05-17 07:46:01.776106 I [23755:23755] service starting
+2020-05-17 07:46:01.776770 F [23755:23755] running already! allow only one instance
+2020-05-17 07:46:01.776804 I [23755:23755] ~~~~~~ log aborted ~~~~~~
+2020-05-17 07:48:01.355903 I [23809:23809] ~~~~~~ log started ~~~~~~
+2020-05-17 07:48:01.355908 I [23809:23809] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 07:48:01.355911 I [23809:23809] aicp_asr_trans.revision = 10.2.0
+2020-05-17 07:48:01.355913 I [23809:23809] hci-svc.revision = 1.1.0
+2020-05-17 07:48:01.357008 I [23809:23809] change-service-pid: 23809 => 23828
+2020-05-17 07:48:01.357095 I [23828:23828] change-service-pid: 23809 => 23828
+2020-05-17 07:48:01.357237 I [23828:23828] service starting
+2020-05-17 07:48:01.357689 F [23828:23828] running already! allow only one instance
+2020-05-17 07:48:01.357729 I [23828:23828] ~~~~~~ log aborted ~~~~~~
+2020-05-17 07:48:33.609551 I [23696:23696] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-17 07:48:33.618144 I [23696:23696] ispeak-engine.compile_date = Apr 28 2020
+2020-05-17 07:48:33.626544 I [23696:23696] ispeak-engine.compile_time = 20:00:23
+2020-05-17 07:48:33.634833 I [23696:23696] ispeak-engine.license = NORMAL
+2020-05-17 07:48:33.736996 I [23696:23696] ispeak init ok
+2020-05-17 07:48:33.745075 I [23696:23862] enter launch-worker
+2020-05-17 07:48:33.785717 I [23696:23861] enter trans-worker
+2020-05-17 07:48:33.786717 I [23696:23859] enter trans-worker
+2020-05-17 07:48:33.830687 I [23696:23858] enter trans-worker
+2020-05-17 07:48:33.836006 I [23696:23860] enter trans-worker
+2020-05-17 07:48:33.845042 I [23696:23696] trans workers started
+2020-05-17 07:48:33.852872 I [23696:23696] starting http
+2020-05-17 07:48:33.862012 I [23696:23696] service started
+2020-05-17 07:48:33.869362 I [23696:23696] running in background, no more console log
+2020-05-17 07:57:29.404094 I [23696:23862] check[5ec07de900000001]: begin
+2020-05-17 07:57:29.404785 I [23696:23862] check[5ec07de900000001]: done
+2020-05-17 07:57:29.405197 I [23696:23859] trans[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-17 07:57:29.407051 I [23696:23859] trans[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-17 07:57:29.408129 I [23696:23859] trans[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-17 07:57:29.762358 I [23696:23859] trans[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-17 07:57:29.762900 I [23696:23859] trans[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-17 07:57:29.763224 I [23696:23859] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-17 21:04:11.746497 I [45974:45974] ~~~~~~ log started ~~~~~~
+2020-05-17 21:04:11.755081 I [45974:45974] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-17 21:04:11.763914 I [45974:45974] aicp_asr_trans.revision = 10.2.0
+2020-05-17 21:04:11.772781 I [45974:45974] hci-svc.revision = 1.1.0
+2020-05-17 21:04:11.782868 I [45974:45974] change-service-pid: 45974 => 45985
+2020-05-17 21:04:11.792461 I [45985:45985] change-service-pid: 45974 => 45985
+2020-05-17 21:04:11.801768 I [45985:45985] service starting
+2020-05-17 21:04:11.818471 I [45985:45996] enter watchdog
+2020-05-17 21:04:23.711555 I [45985:45985] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-17 21:04:23.720252 I [45985:45985] ispeak-engine.compile_date = Apr 28 2020
+2020-05-17 21:04:23.728821 I [45985:45985] ispeak-engine.compile_time = 20:00:23
+2020-05-17 21:04:23.737295 I [45985:45985] ispeak-engine.license = NORMAL
+2020-05-17 21:04:23.786201 I [45985:45985] ispeak init ok
+2020-05-17 21:04:23.794702 I [45985:46021] enter launch-worker
+2020-05-17 21:04:23.833366 I [45985:46020] enter trans-worker
+2020-05-17 21:04:23.834399 I [45985:46019] enter trans-worker
+2020-05-17 21:04:23.834407 I [45985:46017] enter trans-worker
+2020-05-17 21:04:23.834480 I [45985:46018] enter trans-worker
+2020-05-17 21:04:23.844350 W [45985:46020] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-17 21:04:23.867123 I [45985:45985] trans workers started
+2020-05-17 21:04:23.885122 I [45985:45985] starting http
+2020-05-17 21:04:23.894359 I [45985:45985] service started
+2020-05-17 21:04:23.903290 I [45985:45985] running in background, no more console log
+2020-05-17 21:05:23.982729 W [45985:46019] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-17 21:06:24.044489 W [45985:46017] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-17 21:07:24.103718 W [45985:46018] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:48:54.700026 I [19939:19939] ~~~~~~ log started ~~~~~~
+2020-05-18 17:48:54.710888 I [19939:19939] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 17:48:54.722000 I [19939:19939] aicp_asr_trans.revision = 10.2.0
+2020-05-18 17:48:54.732920 I [19939:19939] hci-svc.revision = 1.1.0
+2020-05-18 17:48:54.744821 I [19939:19939] change-service-pid: 19939 => 19950
+2020-05-18 17:48:54.756460 I [19950:19950] change-service-pid: 19939 => 19950
+2020-05-18 17:48:54.767895 I [19950:19950] service starting
+2020-05-18 17:48:54.786547 I [19950:19961] enter watchdog
+2020-05-18 17:49:07.120590 I [19950:19950] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-18 17:49:07.131497 I [19950:19950] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 17:49:07.141942 I [19950:19950] ispeak-engine.compile_time = 20:00:23
+2020-05-18 17:49:07.151979 I [19950:19950] ispeak-engine.license = NORMAL
+2020-05-18 17:49:07.202191 I [19950:19950] ispeak init ok
+2020-05-18 17:49:07.212386 I [19950:19983] enter launch-worker
+2020-05-18 17:49:07.253579 I [19950:19981] enter trans-worker
+2020-05-18 17:49:07.253739 I [19950:19979] enter trans-worker
+2020-05-18 17:49:07.254719 I [19950:19980] enter trans-worker
+2020-05-18 17:49:07.254984 I [19950:19982] enter trans-worker
+2020-05-18 17:49:07.265006 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:49:07.289381 I [19950:19950] trans workers started
+2020-05-18 17:49:07.308470 I [19950:19950] starting http
+2020-05-18 17:49:07.317986 I [19950:19950] service started
+2020-05-18 17:49:07.327235 I [19950:19950] running in background, no more console log
+2020-05-18 17:50:07.406853 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:51:07.471585 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:52:07.539104 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:53:07.602303 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:54:07.670148 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:55:07.735633 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:56:07.805680 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:57:07.875680 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:58:07.928411 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 17:59:07.992209 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:00:08.057890 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:01:08.113983 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:02:08.174163 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:03:08.238950 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:04:08.305201 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:05:08.363815 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:06:08.426126 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:07:08.487789 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:08:08.550892 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:09:08.619027 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:10:08.685954 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:11:08.748689 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:12:08.812668 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:13:08.869883 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:14:08.940886 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:15:09.006187 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:16:09.064244 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:17:09.125847 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:18:09.191487 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:19:09.258792 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:20:09.325606 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:21:09.391307 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:22:09.452169 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:23:09.518889 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:24:09.588312 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:25:09.648202 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:26:09.709754 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:27:09.779002 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:28:09.831949 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:29:09.891259 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:30:09.961569 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:31:10.022881 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:32:10.079999 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:33:10.133012 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:34:10.201501 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:35:10.267823 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:36:10.329294 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:37:10.395711 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:38:10.452156 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:39:10.513437 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:40:10.575357 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:41:10.637798 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:42:10.701398 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:43:10.765937 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:44:10.828223 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:45:10.893768 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:46:10.951438 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:47:11.016303 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:48:11.083915 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:49:11.139753 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:50:11.209754 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:51:11.262892 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:52:11.319713 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:53:11.386948 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:54:11.449723 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:55:11.518426 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:56:11.586255 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:57:11.641731 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:58:11.708562 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 18:59:11.771754 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:00:11.840387 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:01:11.910631 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:02:11.978146 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:03:12.039040 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:04:12.101791 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:05:12.171964 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:06:12.242047 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:07:12.303465 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:08:12.368030 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:09:12.438125 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:10:12.504751 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:11:12.570327 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:12:12.625838 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:13:12.690548 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:14:12.757513 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:15:12.827217 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:16:12.895879 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:17:12.961738 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:18:13.029653 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:19:13.085762 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:20:13.150971 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:21:13.212713 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:22:13.257872 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:23:13.316614 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:24:13.386749 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:25:13.456098 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:26:13.520747 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:27:13.581057 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:28:13.648916 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:29:13.702343 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:30:13.761822 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:31:13.824858 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:32:13.888620 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:33:13.951870 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:34:14.014693 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:35:14.074106 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:36:14.139363 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:37:14.209631 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:38:14.276000 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:39:14.337035 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:40:14.393102 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:41:14.458591 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:42:14.519231 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:43:14.588823 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:44:14.651508 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:45:14.719169 W [19950:19979] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:46:14.770211 W [19950:19980] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:47:14.839433 W [19950:19982] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:48:14.902822 W [19950:19981] ispeak[5ec07de900000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 19:54:56.188831 I [24197:24197] ~~~~~~ log started ~~~~~~
+2020-05-18 19:54:56.194707 I [24197:24197] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 19:54:56.200728 I [24197:24197] aicp_asr_trans.revision = 10.2.0
+2020-05-18 19:54:56.206693 I [24197:24197] hci-svc.revision = 1.1.0
+2020-05-18 19:54:56.213659 I [24197:24197] change-service-pid: 24197 => 24208
+2020-05-18 19:54:56.220079 I [24208:24208] change-service-pid: 24197 => 24208
+2020-05-18 19:54:56.226490 I [24208:24208] service starting
+2020-05-18 19:54:56.240602 I [24208:24219] enter watchdog
+2020-05-18 19:55:08.258372 I [24208:24208] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-18 19:55:08.264901 I [24208:24208] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 19:55:08.271435 I [24208:24208] ispeak-engine.compile_time = 20:00:23
+2020-05-18 19:55:08.278101 I [24208:24208] ispeak-engine.license = NORMAL
+2020-05-18 19:55:08.328133 I [24208:24208] ispeak init ok
+2020-05-18 19:55:08.336340 I [24208:24250] enter launch-worker
+2020-05-18 19:55:08.375996 I [24208:24246] enter trans-worker
+2020-05-18 19:55:08.376442 I [24208:24248] enter trans-worker
+2020-05-18 19:55:08.376756 I [24208:24247] enter trans-worker
+2020-05-18 19:55:08.388778 I [24208:24249] enter trans-worker
+2020-05-18 19:55:08.402326 I [24208:24208] trans workers started
+2020-05-18 19:55:08.408704 I [24208:24208] starting http
+2020-05-18 19:55:08.414859 I [24208:24208] service started
+2020-05-18 19:55:08.420660 I [24208:24208] running in background, no more console log
+2020-05-18 19:57:01.847133 I [24208:24250] check[5ec2780d00000001]: begin
+2020-05-18 19:57:01.847763 I [24208:24250] check[5ec2780d00000001]: done
+2020-05-18 19:57:01.848371 I [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-18 19:57:01.850617 I [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-18 19:57:01.851663 I [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-18 19:57:01.978110 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: format_name = wav
+2020-05-18 19:57:01.978130 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: probe_score = 99
+2020-05-18 19:57:01.978134 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream count = 1
+2020-05-18 19:57:01.978137 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].codec_type = audio
+2020-05-18 19:57:01.978140 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].duration = 652.481
+2020-05-18 19:57:01.978147 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].sample_rate = 16000
+2020-05-18 19:57:01.978150 D [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].channels = 1
+2020-05-18 19:57:02.086262 I [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-18 19:57:02.086919 I [24208:24247] trans[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-18 19:57:02.087229 I [24208:24247] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-18 20:04:49.731924 I [24765:24765] ~~~~~~ log started ~~~~~~
+2020-05-18 20:04:49.739254 I [24765:24765] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 20:04:49.746818 I [24765:24765] aicp_asr_trans.revision = 10.2.0
+2020-05-18 20:04:49.754401 I [24765:24765] hci-svc.revision = 1.1.0
+2020-05-18 20:04:49.762845 I [24765:24765] change-service-pid: 24765 => 24776
+2020-05-18 20:04:49.770828 I [24776:24776] change-service-pid: 24765 => 24776
+2020-05-18 20:04:49.778696 I [24776:24776] service starting
+2020-05-18 20:04:49.794255 I [24776:24787] enter watchdog
+2020-05-18 20:05:00.773296 I [24776:24776] ispeak-engine.version = 10.0.1.4270
+2020-05-18 20:05:00.780957 I [24776:24776] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 20:05:00.788514 I [24776:24776] ispeak-engine.compile_time = 20:01:14
+2020-05-18 20:05:00.796042 I [24776:24776] ispeak-engine.license = NORMAL
+2020-05-18 20:05:00.843311 I [24776:24776] ispeak init ok
+2020-05-18 20:05:00.851017 I [24776:24806] enter launch-worker
+2020-05-18 20:05:00.889829 I [24776:24804] enter trans-worker
+2020-05-18 20:05:00.889917 I [24776:24802] enter trans-worker
+2020-05-18 20:05:00.897082 I [24776:24805] enter trans-worker
+2020-05-18 20:05:00.899615 W [24776:24804] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:05:00.899714 I [24776:24803] enter trans-worker
+2020-05-18 20:05:00.930223 I [24776:24776] trans workers started
+2020-05-18 20:05:00.938668 I [24776:24776] starting http
+2020-05-18 20:05:00.947000 I [24776:24776] service started
+2020-05-18 20:05:00.955188 I [24776:24776] running in background, no more console log
+2020-05-18 20:06:01.031098 W [24776:24803] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:07:00.188807 I [24776:24806] check[5ec27a6400000002]: begin
+2020-05-18 20:07:00.189350 I [24776:24806] check[5ec27a6400000002]: done
+2020-05-18 20:07:00.190041 I [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-18 20:07:00.191684 I [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-18 20:07:00.192677 I [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-18 20:07:00.279892 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: format_name = wav
+2020-05-18 20:07:00.279911 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: probe_score = 99
+2020-05-18 20:07:00.279914 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream count = 1
+2020-05-18 20:07:00.279917 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].codec_type = audio
+2020-05-18 20:07:00.279920 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].duration = 652.481
+2020-05-18 20:07:00.279927 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].sample_rate = 16000
+2020-05-18 20:07:00.279930 D [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].channels = 1
+2020-05-18 20:07:00.366517 I [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-18 20:07:00.367104 I [24776:24805] trans[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-18 20:07:00.367407 I [24776:24805] ispeak[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-18 20:07:01.095926 W [24776:24804] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:07:16.047344 D [24776:24805] ispk duration += 30000
+2020-05-18 20:07:16.047401 D [24776:24805] ispk cputime += 15666
+2020-05-18 20:07:16.047403 D [24776:24805] ispk runtime += 15673
+2020-05-18 20:07:31.997908 D [24776:24805] ispk duration += 30000
+2020-05-18 20:07:31.997937 D [24776:24805] ispk cputime += 15947
+2020-05-18 20:07:31.997939 D [24776:24805] ispk runtime += 15950
+2020-05-18 20:07:48.590581 D [24776:24805] ispk duration += 30000
+2020-05-18 20:07:48.590616 D [24776:24805] ispk cputime += 16590
+2020-05-18 20:07:48.590618 D [24776:24805] ispk runtime += 16593
+2020-05-18 20:08:01.158593 W [24776:24802] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:08:05.426886 D [24776:24805] ispk duration += 30000
+2020-05-18 20:08:05.426919 D [24776:24805] ispk cputime += 16833
+2020-05-18 20:08:05.426921 D [24776:24805] ispk runtime += 16836
+2020-05-18 20:08:23.558257 D [24776:24805] ispk duration += 30000
+2020-05-18 20:08:23.558299 D [24776:24805] ispk cputime += 18131
+2020-05-18 20:08:23.558302 D [24776:24805] ispk runtime += 18132
+2020-05-18 20:08:40.493680 D [24776:24805] ispk duration += 30000
+2020-05-18 20:08:40.493714 D [24776:24805] ispk cputime += 16932
+2020-05-18 20:08:40.493716 D [24776:24805] ispk runtime += 16935
+2020-05-18 20:08:57.775185 D [24776:24805] ispk duration += 30000
+2020-05-18 20:08:57.775221 D [24776:24805] ispk cputime += 17279
+2020-05-18 20:08:57.775223 D [24776:24805] ispk runtime += 17282
+2020-05-18 20:09:01.221651 W [24776:24803] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:09:14.704825 D [24776:24805] ispk duration += 30000
+2020-05-18 20:09:14.704862 D [24776:24805] ispk cputime += 16926
+2020-05-18 20:09:14.704864 D [24776:24805] ispk runtime += 16929
+2020-05-18 20:09:32.865394 D [24776:24805] ispk duration += 30000
+2020-05-18 20:09:32.865437 D [24776:24805] ispk cputime += 18161
+2020-05-18 20:09:32.865439 D [24776:24805] ispk runtime += 18161
+2020-05-18 20:09:50.214488 D [24776:24805] ispk duration += 30000
+2020-05-18 20:09:50.214522 D [24776:24805] ispk cputime += 17346
+2020-05-18 20:09:50.214524 D [24776:24805] ispk runtime += 17349
+2020-05-18 20:10:01.286457 W [24776:24804] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:10:07.903680 D [24776:24805] ispk duration += 30000
+2020-05-18 20:10:07.903713 D [24776:24805] ispk cputime += 17686
+2020-05-18 20:10:07.903718 D [24776:24805] ispk runtime += 17689
+2020-05-18 20:10:24.506229 D [24776:24805] ispk duration += 30000
+2020-05-18 20:10:24.506267 D [24776:24805] ispk cputime += 16600
+2020-05-18 20:10:24.506269 D [24776:24805] ispk runtime += 16603
+2020-05-18 20:10:41.070403 D [24776:24805] ispk duration += 30000
+2020-05-18 20:10:41.070456 D [24776:24805] ispk cputime += 16561
+2020-05-18 20:10:41.070458 D [24776:24805] ispk runtime += 16564
+2020-05-18 20:10:58.509408 D [24776:24805] ispk duration += 30000
+2020-05-18 20:10:58.509457 D [24776:24805] ispk cputime += 17436
+2020-05-18 20:10:58.509459 D [24776:24805] ispk runtime += 17439
+2020-05-18 20:11:01.348889 W [24776:24802] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:11:14.910336 D [24776:24805] ispk duration += 30000
+2020-05-18 20:11:14.910371 D [24776:24805] ispk cputime += 16398
+2020-05-18 20:11:14.910373 D [24776:24805] ispk runtime += 16401
+2020-05-18 20:11:32.583053 D [24776:24805] ispk duration += 30000
+2020-05-18 20:11:32.583088 D [24776:24805] ispk cputime += 17669
+2020-05-18 20:11:32.583090 D [24776:24805] ispk runtime += 17672
+2020-05-18 20:11:48.689483 D [24776:24805] ispk duration += 30000
+2020-05-18 20:11:48.689521 D [24776:24805] ispk cputime += 16104
+2020-05-18 20:11:48.689523 D [24776:24805] ispk runtime += 16107
+2020-05-18 20:12:01.417436 W [24776:24803] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:12:05.846404 D [24776:24805] ispk duration += 30000
+2020-05-18 20:12:05.846440 D [24776:24805] ispk cputime += 17154
+2020-05-18 20:12:05.846442 D [24776:24805] ispk runtime += 17157
+2020-05-18 20:12:23.087651 D [24776:24805] ispk duration += 30000
+2020-05-18 20:12:23.087695 D [24776:24805] ispk cputime += 17238
+2020-05-18 20:12:23.087697 D [24776:24805] ispk runtime += 17241
+2020-05-18 20:12:40.727547 D [24776:24805] ispk duration += 30000
+2020-05-18 20:12:40.727580 D [24776:24805] ispk cputime += 17637
+2020-05-18 20:12:40.727582 D [24776:24805] ispk runtime += 17640
+2020-05-18 20:12:41.716835 D [24776:24805] ispk duration += 30000
+2020-05-18 20:12:41.716850 D [24776:24805] ispk cputime += 988
+2020-05-18 20:12:41.716852 D [24776:24805] ispk runtime += 989
+2020-05-18 20:12:41.832176 D [24776:24805] ispk duration += 22480
+2020-05-18 20:12:41.832199 D [24776:24805] ispk cputime += 116
+2020-05-18 20:12:41.832200 D [24776:24805] ispk runtime += 116
+2020-05-18 20:12:41.841161 I [24776:24805] ispeak[5ec27a6400000002:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak done (code = 4000)
+2020-05-18 20:13:01.484982 W [24776:24805] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:14:51.500173 I [25234:25234] ~~~~~~ log started ~~~~~~
+2020-05-18 20:14:51.506097 I [25234:25234] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 20:14:51.512275 I [25234:25234] aicp_asr_trans.revision = 10.2.0
+2020-05-18 20:14:51.518495 I [25234:25234] hci-svc.revision = 1.1.0
+2020-05-18 20:14:51.525684 I [25234:25234] change-service-pid: 25234 => 25245
+2020-05-18 20:14:51.532438 I [25245:25245] change-service-pid: 25234 => 25245
+2020-05-18 20:14:51.539112 I [25245:25245] service starting
+2020-05-18 20:14:51.551701 I [25245:25256] enter watchdog
+2020-05-18 20:15:03.144580 I [25245:25245] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-18 20:15:03.151220 I [25245:25245] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 20:15:03.157833 I [25245:25245] ispeak-engine.compile_time = 20:00:23
+2020-05-18 20:15:03.164441 I [25245:25245] ispeak-engine.license = NORMAL
+2020-05-18 20:15:03.211881 I [25245:25245] ispeak init ok
+2020-05-18 20:15:03.218650 I [25245:25288] enter launch-worker
+2020-05-18 20:15:03.258181 I [25245:25286] enter trans-worker
+2020-05-18 20:15:03.258619 I [25245:25284] enter trans-worker
+2020-05-18 20:15:03.266628 W [25245:25286] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:15:03.275705 I [25245:25285] enter trans-worker
+2020-05-18 20:15:03.279147 I [25245:25287] enter trans-worker
+2020-05-18 20:15:03.293706 I [25245:25245] trans workers started
+2020-05-18 20:15:03.301115 I [25245:25245] starting http
+2020-05-18 20:15:03.308545 I [25245:25245] service started
+2020-05-18 20:15:03.315798 I [25245:25245] running in background, no more console log
+2020-05-18 20:16:03.396364 W [25245:25287] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:16:10.092316 I [25245:25288] check[5ec27c8a00000003]: begin
+2020-05-18 20:16:10.092930 I [25245:25288] check[5ec27c8a00000003]: done
+2020-05-18 20:16:10.093634 I [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-18 20:16:10.095348 I [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-18 20:16:10.096288 I [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-18 20:16:10.196597 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: format_name = wav
+2020-05-18 20:16:10.196614 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: probe_score = 99
+2020-05-18 20:16:10.196618 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream count = 1
+2020-05-18 20:16:10.196622 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].codec_type = audio
+2020-05-18 20:16:10.196626 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].duration = 652.481
+2020-05-18 20:16:10.196636 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].sample_rate = 16000
+2020-05-18 20:16:10.196640 D [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].channels = 1
+2020-05-18 20:16:10.304673 I [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-18 20:16:10.305366 I [25245:25285] trans[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-18 20:16:10.305664 I [25245:25285] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-18 20:17:03.456615 W [25245:25286] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:18:03.528290 W [25245:25284] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:19:03.599603 W [25245:25287] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:20:47.990020 E [25245:25286] License Use Out
+2020-05-18 20:20:47.990078 E [25245:25410] Failed to get license leader addr after 1 attempts, try angain later.
+2020-05-18 20:20:47.990338 E [25245:25286] 5ec2780d00000001:0: license acquire failure
+2020-05-18 20:20:47.990871 E [25245:25284] License Use Out
+2020-05-18 20:20:47.991063 E [25245:25284] 5ec2780d00000001:0: license acquire failure
+2020-05-18 20:20:47.991485 E [25245:25287] License Use Out
+2020-05-18 20:20:47.991679 E [25245:25287] 5ec2780d00000001:0: license acquire failure
+2020-05-18 20:21:47.996469 W [25245:25286] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:21:47.997658 W [25245:25284] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:22:48.108878 W [25245:25284] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:23:48.174718 W [25245:25286] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:24:38.386118 I [25631:25631] ~~~~~~ log started ~~~~~~
+2020-05-18 20:24:38.389565 I [25631:25631] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 20:24:38.393365 I [25631:25631] aicp_asr_trans.revision = 10.2.0
+2020-05-18 20:24:38.397212 I [25631:25631] hci-svc.revision = 1.1.0
+2020-05-18 20:24:38.401333 I [25631:25631] service starting
+2020-05-18 20:24:38.420164 I [25631:25641] enter watchdog
+2020-05-18 20:24:52.407260 I [25631:25631] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-18 20:24:52.411472 I [25631:25631] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 20:24:52.415715 I [25631:25631] ispeak-engine.compile_time = 20:00:23
+2020-05-18 20:24:52.419953 I [25631:25631] ispeak-engine.license = NORMAL
+2020-05-18 20:24:52.465816 I [25631:25631] ispeak init ok
+2020-05-18 20:24:52.471412 I [25631:25664] enter launch-worker
+2020-05-18 20:24:52.510013 I [25631:25660] enter trans-worker
+2020-05-18 20:24:52.519127 W [25631:25660] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:24:52.526713 I [25631:25663] enter trans-worker
+2020-05-18 20:24:52.527890 I [25631:25662] enter trans-worker
+2020-05-18 20:24:52.528404 I [25631:25661] enter trans-worker
+2020-05-18 20:24:52.543049 I [25631:25631] trans workers started
+2020-05-18 20:24:52.548899 I [25631:25631] starting http
+2020-05-18 20:24:52.555398 I [25631:25631] service started
+2020-05-18 20:25:03.464572 W [25631:25662] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:25:53.532208 W [25631:25663] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:26:03.542025 W [25631:25660] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:26:53.805432 W [25631:25661] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:27:03.819034 W [25631:25662] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:27:53.886086 W [25631:25663] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:28:03.901021 W [25631:25660] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:28:09.386952 I [25631:25664] check[5ec27f5900000004]: begin
+2020-05-18 20:28:09.419513 I [25631:25664] check[5ec27f5900000004]: done
+2020-05-18 20:28:09.421477 I [25631:25661] trans[5ec27f5900000004:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-18 20:28:09.453049 I [25631:25661] trans[5ec27f5900000004:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-18 20:28:09.472990 I [25631:25661] trans[5ec27f5900000004:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-18 20:28:09.571037 E [25631:25661] trans[5ec27f5900000004:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: unknown format
+2020-05-18 20:28:09.589000 I [25631:25661] trans[5ec27f5900000004:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 4200)
+2020-05-18 20:28:30.785009 I [25631:25631] got signal 2
+2020-05-18 20:28:30.801793 I [25631:25631] service stopping
+2020-05-18 20:28:30.818439 I [25631:25641] leave watchdog
+2020-05-18 20:28:30.818688 I [25631:25664] leave launch-worker
+2020-05-18 20:28:30.843651 I [25631:25660] leave trans-worker
+2020-05-18 20:28:30.865520 I [25631:25662] leave trans-worker
+2020-05-18 20:28:30.865520 I [25631:25663] leave trans-worker
+2020-05-18 20:28:30.870224 I [25631:25661] leave trans-worker
+2020-05-18 20:28:31.734820 I [25631:25631] trans workers stopped
+2020-05-18 20:28:31.750460 I [25631:25631] stopping http
+2020-05-18 20:28:31.766287 I [25631:25631] service stopped
+2020-05-18 20:28:31.781950 I [25631:25631] ~~~~~~ log stopped ~~~~~~
+2020-05-18 20:29:19.732612 I [25738:25738] ~~~~~~ log started ~~~~~~
+2020-05-18 20:29:19.747399 I [25738:25738] exe = /home/hcicloud/aicp/cu/aicp_asr_trans/bin/aicp_asr_trans
+2020-05-18 20:29:19.762418 I [25738:25738] aicp_asr_trans.revision = 10.2.0
+2020-05-18 20:29:19.777279 I [25738:25738] hci-svc.revision = 1.1.0
+2020-05-18 20:29:19.791842 I [25738:25738] service starting
+2020-05-18 20:29:19.829704 I [25738:25751] enter watchdog
+2020-05-18 20:29:35.272662 I [25738:25738] ispeak-engine.version = 10.0.1.4270_cuda
+2020-05-18 20:29:35.286577 I [25738:25738] ispeak-engine.compile_date = Apr 28 2020
+2020-05-18 20:29:35.300220 I [25738:25738] ispeak-engine.compile_time = 20:00:23
+2020-05-18 20:29:35.313207 I [25738:25738] ispeak-engine.license = NORMAL
+2020-05-18 20:29:35.400916 I [25738:25738] ispeak init ok
+2020-05-18 20:29:35.415121 I [25738:25769] enter launch-worker
+2020-05-18 20:29:35.457731 I [25738:25767] enter trans-worker
+2020-05-18 20:29:35.457835 I [25738:25768] enter trans-worker
+2020-05-18 20:29:35.459160 I [25738:25766] enter trans-worker
+2020-05-18 20:29:35.474752 W [25738:25767] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:29:35.499861 I [25738:25765] enter trans-worker
+2020-05-18 20:29:35.513876 W [25738:25768] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:29:35.524087 I [25738:25738] trans workers started
+2020-05-18 20:29:35.552341 I [25738:25738] starting http
+2020-05-18 20:29:35.566625 I [25738:25738] service started
+2020-05-18 20:29:53.338789 I [25738:25769] check[5ec27fc100000005]: begin
+2020-05-18 20:29:53.363922 I [25738:25769] check[5ec27fc100000005]: done
+2020-05-18 20:29:53.365821 I [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetching
+2020-05-18 20:29:53.387127 I [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: fetch ended
+2020-05-18 20:29:53.400734 I [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg begin
+2020-05-18 20:29:53.556726 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: format_name = wav
+2020-05-18 20:29:53.567532 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: probe_score = 99
+2020-05-18 20:29:53.578258 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream count = 1
+2020-05-18 20:29:53.589229 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].codec_type = audio
+2020-05-18 20:29:53.600160 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].duration = 652.481
+2020-05-18 20:29:53.610692 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].sample_rate = 16000
+2020-05-18 20:29:53.621118 D [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: stream[0].channels = 1
+2020-05-18 20:29:53.810359 I [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg success
+2020-05-18 20:29:53.821191 I [25738:25766] trans[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ffmpeg done (code = 3000)
+2020-05-18 20:29:53.831768 I [25738:25766] ispeak[5ec27fc100000005:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: ispeak begin
+2020-05-18 20:30:39.949896 W [25738:25767] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:30:39.970256 W [25738:25765] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:31:40.030271 W [25738:25768] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:31:40.035190 W [25738:25767] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:32:40.112025 W [25738:25765] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:32:40.116445 W [25738:25768] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:33:40.184751 W [25738:25767] ispeak[5ec2780d00000001:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:33:40.189395 W [25738:25765] ispeak[5ec27c8a00000003:0][file:///home/hcicloud/cff7906f64e078fd0239b6ee38e0ceac.wav]: job handled already (code = 3001)
+2020-05-18 20:34:10.562511 I [25738:25738] got signal 2
+2020-05-18 20:34:10.573394 I [25738:25738] service stopping
+2020-05-18 20:34:10.584484 I [25738:25751] leave watchdog
+2020-05-18 20:34:10.584665 I [25738:25769] leave launch-worker
+2020-05-18 20:34:10.634250 I [25738:25768] leave trans-worker
+2020-05-18 20:34:10.634250 I [25738:25767] leave trans-worker
+2020-05-18 20:34:10.656713 I [25738:25765] leave trans-worker
+2020-05-18 20:34:11.534749 I [25738:25738] trans workers stopped
+2020-05-18 20:34:11.545156 I [25738:25738] stopping http
+2020-05-18 20:34:11.555651 I [25738:25738] service stopped
+2020-05-18 20:34:11.565853 I [25738:25738] ~~~~~~ log stopped ~~~~~~

@@ -1,114 +1,90 @@
-INFO : 05-18 20:29:19.926 140208115840896 (ASRConfig.cpp:128:Load) iSpeak_v10 Engine 10.0.1.4270_cuda
-INFO : 05-18 20:29:19.927 140208115840896 (ASRConfig.cpp:129:Load) Load conf file: /home/hcicloud/aicp/cu/aicp_asr_trans/models/conf/ispeak.conf
-INFO : 05-18 20:29:20.914 140208115840896 (cu-device.cc:245:SelectGpuId) cudaSetDevice(0): Tesla T4	free:14967M, used:111M, total:15079M, free/total:0.992581
-INFO : 05-18 20:29:21.626 140208115840896 (cu-device.cc:297:SelectGpuId) CUDA setup is ok, will use GPU id (0, )
-DEBUG: 05-18 20:29:21.634 140208115840896 (DecodeEngine.cpp:76:LoadAcousticModel) Loading acoustic model
-DEBUG: 05-18 20:29:21.634 140208115840896 (AcousticModel.cpp:872:Load) AcousticModel::Load() Enter.
-DEBUG: 05-18 20:29:21.634 140208115840896 (AcousticModel.cpp:418:Load) AcousticModel::Load() Enter.
-DEBUG: 05-18 20:29:21.634 140208115840896 (AcousticModel.cpp:449:LoadAMModelFile) AcousticModel::LoadAMModelFile Enter.
-DEBUG: 05-18 20:29:21.635 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 0, len 40
-INFO : 05-18 20:29:21.635 140208115840896 (AcousticModel.cpp:73:LoadAMInfo) Load Acoustic Model: CBF (16K)
-DEBUG: 05-18 20:29:21.635 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 1, len 180268
-INFO : 05-18 20:29:21.639 140208115840896 (AcousticModel.cpp:479:LoadAMModelFile) <am.bin> take 4.234 ms
-DEBUG: 05-18 20:29:21.639 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 2, len 8
-INFO : 05-18 20:29:21.639 140208115840896 (AcousticModel.cpp:534:LoadNnetTransf) Read for GPU 0
-INFO : 05-18 20:29:21.639 140208115840896 (AcousticModel.cpp:484:LoadAMModelFile) <trans.bin> take 0.383 ms
-DEBUG: 05-18 20:29:21.639 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 3, len 298212977
-INFO : 05-18 20:29:22.537 140208115840896 (AcousticModel.cpp:595:LoadRawNnet3) Read for GPU 0
-INFO : 05-18 20:29:22.765 140208115840896 (AcousticModel.cpp:491:LoadAMModelFile) <nnet.bin> take 1125.558 ms
-DEBUG: 05-18 20:29:22.765 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 4, len 8
-INFO : 05-18 20:29:22.765 140208115840896 (AcousticModel.cpp:502:LoadAMModelFile) <counts.bin> take 0.212 ms
-DEBUG: 05-18 20:29:22.765 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 5, len 16
-DEBUG: 05-18 20:29:22.765 140208115840896 (AcousticModel.cpp:386:LoadCmvn) cmvn data is empty!
-INFO : 05-18 20:29:22.765 140208115840896 (AcousticModel.cpp:507:LoadAMModelFile) <cmvn.bin> take 0.217 ms
-DEBUG: 05-18 20:29:22.765 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 6, len 1364
-INFO : 05-18 20:29:22.765 140208115840896 (AcousticModel.cpp:512:LoadAMModelFile) <monophone.bin> take 0.259 ms
-DEBUG: 05-18 20:29:22.766 140208115840896 (AcousticModel.cpp:519:LoadAMModelFile) AcousticModel::LoadAMModelFile Exit.
-INFO : 05-18 20:29:22.766 140208115840896 (PerfChecker.cpp:105:Output) <LoadAMModelFile> take 1131.072 ms
-DEBUG: 05-18 20:29:22.766 140208115840896 (AcousticModel.cpp:892:PostLoad) AcousticModel::PostLoad() Enter.
-DEBUG: 05-18 20:29:22.805 140208115840896 (AcousticModel.cpp:928:PostLoad) AcousticModel::PostLoad() Exit.
-DEBUG: 05-18 20:29:22.805 140208115840896 (AcousticModel.cpp:818:LoadAuxModelFile) AcousticModel::LoadAuxModelFile() Enter.
-DEBUG: 05-18 20:29:22.805 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 0, len 150118
-DEBUG: 05-18 20:29:22.805 140208115840896 (AcousticModel.cpp:78:LoadILabels) AcousticModel::LoadILabels() Enter.
-DEBUG: 05-18 20:29:22.809 140208115840896 (AcousticModel.cpp:122:LoadILabels) OLD: max_hmm_states: 0*sizeof(int16)=0
-DEBUG: 05-18 20:29:22.809 140208115840896 (AcousticModel.cpp:124:LoadILabels) AcousticModel::LoadILabels() Exit.
-DEBUG: 05-18 20:29:22.809 140208115840896 (helper.cpp:46:GetFileTypeAndLen) Lib: type 1, len 1042148
-DEBUG: 05-18 20:29:22.809 140208115840896 (AcousticModel.cpp:309:LoadTree) AcousticModel::LoadTree() Enter.
-INFO : 05-18 20:29:22.822 140208115840896 (AcousticModel.cpp:313:LoadTree) <read tree> take 12.765 ms
-DEBUG: 05-18 20:29:22.822 140208115840896 (AcousticModel.cpp:319:LoadTree) max_hmm_states: 280144*sizeof(int16)=560288
-DEBUG: 05-18 20:29:22.822 140208115840896 (AcousticModel.cpp:322:LoadTree) SetTreeNode Begin
-DEBUG: 05-18 20:29:22.831 140208115840896 (AcousticModel.cpp:342:LoadTree) SetTreeNode OK
-INFO : 05-18 20:29:22.831 140208115840896 (AcousticModel.cpp:344:LoadTree) <calc hmm_state> take 9.533 ms
-INFO : 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:373:LoadTree) <calc emit_probs> take 0.090 ms
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:375:LoadTree) AcousticModel::LoadTree() Exit.
-INFO : 05-18 20:29:22.832 140208115840896 (PerfChecker.cpp:105:Output) <LoadTree> take 22.509 ms
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:866:LoadAuxModelFile) AcousticModel::LoadAuxModelFile() Exit.
-INFO : 05-18 20:29:22.832 140208115840896 (PerfChecker.cpp:105:Output) <LoadAuxModelFile> take 26.699 ms
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:443:Load) AcousticModel::Load() Exit.
-INFO : 05-18 20:29:22.832 140208115840896 (PerfChecker.cpp:105:Output) <Load> take 1197.529 ms
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:885:Load) AcousticModel::Load() Exit.
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:715:ApplyConfig) AcousticModel::ApplyConfig Enter.
-DEBUG: 05-18 20:29:22.832 140208115840896 (AcousticModel.cpp:734:ApplyConfig) AcousticModel::ApplyConfig Exit.
-DEBUG: 05-18 20:29:22.832 140208115840896 (DecodeEngine.cpp:106:LoadLanguageModel) Loading language model
-DEBUG: 05-18 20:29:22.998 140208115840896 (LanguageModel.cpp:164:Load) read HCLG fst
-INFO : 05-18 20:29:22.998 140208115840896 (LanguageModel.cpp:176:Load) <read fst network> take 165.731 ms
-INFO : 05-18 20:29:23.022 140208115840896 (PerfChecker.cpp:105:Output) <Load> take 189.454 ms
-INFO : 05-18 20:29:23.068 140208115840896 (PerfChecker.cpp:105:Output) <BuildBackoffInfo> take 43.210 ms
-INFO : 05-18 20:29:23.068 140208115840896 (PerfChecker.cpp:105:Output) <Init> take 1434.309 ms
-INFO : 05-18 20:29:23.069 140208115840896 (TextLabelEngine.cpp:54:LoadG2PModel) loading g2p model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data//ispk_g2p.dat
-WARN : 05-18 20:29:23.069 140208115840896 (TextLabelEngine.cpp:59:LoadG2PModel) G2P file /home/hcicloud/aicp/cu/aicp_asr_trans/models/data//ispk_g2p.dat does not exit, can not support automatically labelling user word
-DEBUG: 05-18 20:29:23.069 140208115840896 (ASREngine.cpp:129:LoadDefaultOptimizeResource) loading default optimize resource
-INFO : 05-18 20:29:23.069 140208115840896 (ASREngine.cpp:142:LoadDefaultOptimizeResource) <olm resource> take 0.039 ms
-INFO : 05-18 20:29:23.069 140208115840896 (ASREngine.cpp:154:LoadDefaultOptimizeResource) <userword resource> take 0.107 ms
-DEBUG: 05-18 20:29:23.862 140208115840896 (SpeechAnalysisEngine.cpp:35:LoadSpeakerSegLib) loading SpeakerSeg lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
-INFO : 05-18 20:29:23.862 140208115840896 (VpGmmModel.cpp:52:GetModelInfo) SD_Model Info [version:9 type:GMM_IVECTOR sample_rate:16K]
-INFO : 05-18 20:29:24.305 140208115840896 (FullGmmModel.cpp:34:Read) FullGmm NumGuass:2048 Dim:72
-INFO : 05-18 20:29:24.305 140208115840896 (FullGmmModel.cpp:35:Read) <FulGmmModel Read> take 442.900 ms
-INFO : 05-18 20:29:24.573 140208115840896 (FullGmmModel.cpp:38:Read) <FullGmmModel Copy> take 268.386 ms
-INFO : 05-18 20:29:24.574 140208115840896 (VpGmmModel.cpp:99:Init) read gmm model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdModel.dat success
-INFO : 05-18 20:29:24.574 140208115840896 (PerfChecker.cpp:105:Output) <GmmModel Read> take 711.742 ms
-INFO : 05-18 20:29:32.146 140208115840896 (IvectorExtractModel.cpp:65:ReadIvExtractFile) ivector FeatDim:72 IvectorDim:400 NumGauss:2048
-INFO : 05-18 20:29:32.147 140208115840896 (IvectorExtractModel.cpp:66:ReadIvExtractFile) read ivector model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdIv.dat success
-INFO : 05-18 20:29:32.147 140208115840896 (PerfChecker.cpp:105:Output) <IvModel Read> take 7573.010 ms
-WARN : 05-18 20:29:32.147 140208115840896 (IvectorExtractModel.cpp:79:ReadIvMeanFile) not find ivector mean file /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdIvMean.dat
-INFO : 05-18 20:29:32.147 140208115840896 (PerfChecker.cpp:105:Output) <IvMean Read> take 0.138 ms
-INFO : 05-18 20:29:32.148 140208115840896 (IvectorExtractModel.cpp:124:ReadTransformFile) ivector Transform:400 x 400
-INFO : 05-18 20:29:32.148 140208115840896 (IvectorExtractModel.cpp:125:ReadTransformFile) read ivector model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdTrans.dat success
-INFO : 05-18 20:29:32.148 140208115840896 (PerfChecker.cpp:105:Output) <IvTrans Read> take 1.250 ms
-INFO : 05-18 20:29:32.150 140208115840896 (PldaModel.cpp:58:Init) read plda model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdPlda.dat success
-INFO : 05-18 20:29:32.150 140208115840896 (PerfChecker.cpp:105:Output) <PldaModel Read> take 1.360 ms
-DEBUG: 05-18 20:29:32.150 140208115840896 (SpeechAnalysisEngine.cpp:61:LoadCheckRoleLib) loading checkrole lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
-DEBUG: 05-18 20:29:32.150 140208115840896 (SpeechAnalysisEngine.cpp:85:LoadEmotionEngine) loading emotion lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
-INFO : 05-18 20:29:35.272 140208115840896 (PerfChecker.cpp:105:Output) <LoadSlmBlm> take 1842.726 ms
-DEBUG: 05-18 20:29:35.374 140208115840896 (HclgFasterDecoder.cpp:51:HCLGFasterDecoder) HCLGFasterDecoder allocated 2.29M for Token Memory Pool
-INFO : 05-18 20:29:35.377 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(0) to 16000: Success
-INFO : 05-18 20:29:35.377 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(22) to 500: Success
-INFO : 05-18 20:29:35.377 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(23) to 10: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(20) to 30: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(4) to 18000: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(41) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(40) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(42) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(44) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(46) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 2: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 1: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 4: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 16: Success
-INFO : 05-18 20:29:35.378 140208115840896 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 8: Success
-DEBUG: 05-18 20:29:35.452 140206623684352 (HclgFasterDecoder.cpp:51:HCLGFasterDecoder) HCLGFasterDecoder allocated 2.29M for Token Memory Pool
-DEBUG: 05-18 20:29:35.452 140206615291648 (HclgFasterDecoder.cpp:51:HCLGFasterDecoder) HCLGFasterDecoder allocated 2.29M for Token Memory Pool
-DEBUG: 05-18 20:29:35.454 140207070758656 (HclgFasterDecoder.cpp:51:HCLGFasterDecoder) HCLGFasterDecoder allocated 2.29M for Token Memory Pool
-INFO : 05-18 20:29:35.457 140206623684352 (ASRSession.cpp:229:SetIntParam) SetParam(0) to 16000: Success
-INFO : 05-18 20:29:35.457 140206615291648 (ASRSession.cpp:229:SetIntParam) SetParam(0) to 16000: Success
-INFO : 05-18 20:29:35.459 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(0) to 16000: Success
-DEBUG: 05-18 20:29:35.494 140207079151360 (HclgFasterDecoder.cpp:51:HCLGFasterDecoder) HCLGFasterDecoder allocated 2.29M for Token Memory Pool
-INFO : 05-18 20:29:35.499 140207079151360 (ASRSession.cpp:229:SetIntParam) SetParam(0) to 16000: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(31) to 1: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(32) to 0: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(35) to 0: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(41) to 1: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(40) to 0: Success
-INFO : 05-18 20:29:53.842 140207070758656 (ASRSession.cpp:229:SetIntParam) SetParam(11) to 0: Success
-DEBUG: 05-18 20:29:53.849 140207070758656 (ASRSession.cpp:1221:RecognizeOffline) ASRSession::RecognizeOffline: session:0x7f7ba00008c0 data:0x7f8425a38000 len:20879384
-DEBUG: 05-18 20:29:53.849 140207070758656 (OfflineRecognizer.cpp:377:InitVadEngine) Using SpeexVad Engine
+INFO : 05-19 05:37:45.820 139680507647872 (ASRConfig.cpp:132:Load) iSpeak_v10 Engine 10.1.0.4259_cuda
+INFO : 05-19 05:37:45.820 139680507647872 (ASRConfig.cpp:133:Load) Load conf file: /home/hcicloud/aicp/cu/aicp_asr_trans/models/conf/ispeak.conf
+INFO : 05-19 05:37:45.971 139680507647872 (cu-device.cc:245:SelectGpuId) cudaSetDevice(0): Tesla T4	free:14967M, used:111M, total:15079M, free/total:0.992581
+INFO : 05-19 05:37:46.456 139680507647872 (cu-device.cc:297:SelectGpuId) CUDA setup is ok, will use GPU id (0, )
+INFO : 05-19 05:37:46.456 139680507647872 (FreetalkEngine.cpp:77:LoadAcousticModel) Loading acoustic model
+INFO : 05-19 05:37:46.457 139680507647872 (AcousticModel.cpp:73:LoadAMInfo) Load Acoustic Model: CBF (16K)
+INFO : 05-19 05:37:46.458 139680507647872 (AcousticModel.cpp:479:LoadAMModelFile) <am.bin> take 1.171 ms
+INFO : 05-19 05:37:46.458 139680507647872 (AcousticModel.cpp:484:LoadAMModelFile) <trans.bin> take 0.042 ms
+INFO : 05-19 05:37:47.207 139680507647872 (AcousticModel.cpp:491:LoadAMModelFile) <nnet.bin> take 749.072 ms
+INFO : 05-19 05:37:47.207 139680507647872 (AcousticModel.cpp:502:LoadAMModelFile) <counts.bin> take 0.070 ms
+INFO : 05-19 05:37:47.207 139680507647872 (AcousticModel.cpp:386:LoadCmvn) cmvn data is empty!
+INFO : 05-19 05:37:47.207 139680507647872 (AcousticModel.cpp:507:LoadAMModelFile) <cmvn.bin> take 0.012 ms
+INFO : 05-19 05:37:47.207 139680507647872 (AcousticModel.cpp:512:LoadAMModelFile) <monophone.bin> take 0.065 ms
+INFO : 05-19 05:37:47.207 139680507647872 (PerfChecker.cpp:105:Output) <LoadAMModelFile> take 750.446 ms
+INFO : 05-19 05:37:47.249 139680507647872 (AcousticModel.cpp:313:LoadTree) <read tree> take 4.218 ms
+INFO : 05-19 05:37:47.259 139680507647872 (AcousticModel.cpp:344:LoadTree) <calc hmm_state> take 9.199 ms
+INFO : 05-19 05:37:47.259 139680507647872 (AcousticModel.cpp:373:LoadTree) <calc emit_probs> take 0.046 ms
+INFO : 05-19 05:37:47.259 139680507647872 (PerfChecker.cpp:105:Output) <LoadTree> take 13.470 ms
+INFO : 05-19 05:37:47.259 139680507647872 (PerfChecker.cpp:105:Output) <LoadAuxModelFile> take 15.473 ms
+INFO : 05-19 05:37:47.259 139680507647872 (PerfChecker.cpp:105:Output) <Load> take 802.215 ms
+INFO : 05-19 05:37:47.259 139680507647872 (FreetalkEngine.cpp:107:LoadLanguageModel) Loading language model
+INFO : 05-19 05:37:47.289 139680507647872 (LanguageModel.cpp:63:LoadStandardLM) DecodeFstModel format is DNLM
+INFO : 05-19 05:37:47.289 139680507647872 (MySortedConstFst.cpp:128:LoadHFST) HCLG model format is HFST
+INFO : 05-19 05:37:47.405 139680507647872 (LanguageModel.cpp:242:Load) Load /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/ispk_hclg.dat success
+INFO : 05-19 05:37:47.405 139680507647872 (LanguageModel.cpp:244:Load) <read fst network> take 146.126 ms
+INFO : 05-19 05:37:47.416 139680507647872 (LanguageModel.cpp:258:Load) Load /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/ispk_lexphone.dat success
+INFO : 05-19 05:37:47.416 139680507647872 (PerfChecker.cpp:105:Output) <Load> take 157.651 ms
+INFO : 05-19 05:37:47.455 139680507647872 (PerfChecker.cpp:105:Output) <BuildBackoffInfo> take 36.246 ms
+INFO : 05-19 05:37:47.455 139680507647872 (PerfChecker.cpp:105:Output) <Init> take 998.928 ms
+INFO : 05-19 05:37:47.455 139680507647872 (TextLabelEngine.cpp:55:LoadG2PModel) loading g2p model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data//ispk_g2p.dat
+WARN : 05-19 05:37:47.455 139680507647872 (TextLabelEngine.cpp:60:LoadG2PModel) G2P file /home/hcicloud/aicp/cu/aicp_asr_trans/models/data//ispk_g2p.dat does not exit, can not support automatically labelling user word
+INFO : 05-19 05:37:47.455 139680507647872 (ASREngine.cpp:144:LoadDefaultOptimizeResource) loading default optimize resource
+INFO : 05-19 05:37:47.455 139680507647872 (ASREngine.cpp:157:LoadDefaultOptimizeResource) <olm resource> take 0.004 ms
+INFO : 05-19 05:37:47.455 139680507647872 (ASREngine.cpp:169:LoadDefaultOptimizeResource) <userword resource> take 0.007 ms
+INFO : 05-19 05:37:48.145 139680507647872 (SpeechAnalysisEngine.cpp:35:LoadSpeakerSegLib) loading SpeakerSeg lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
+INFO : 05-19 05:37:48.145 139680507647872 (VpGmmModel.cpp:52:GetModelInfo) SD_Model Info [version:9 type:GMM_IVECTOR sample_rate:16K]
+INFO : 05-19 05:37:48.415 139680507647872 (FullGmmModel.cpp:34:Read) FullGmm NumGuass:2048 Dim:72
+INFO : 05-19 05:37:48.415 139680507647872 (FullGmmModel.cpp:35:Read) <FullGmmModel Read> take 269.479 ms
+INFO : 05-19 05:37:48.670 139680507647872 (FullGmmModel.cpp:38:Read) <FullGmmModel Copy> take 254.947 ms
+INFO : 05-19 05:37:48.670 139680507647872 (VpGmmModel.cpp:99:Init) read gmm model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdModel.dat success
+INFO : 05-19 05:37:48.670 139680507647872 (PerfChecker.cpp:105:Output) <GmmModel Read> take 524.475 ms
+INFO : 05-19 05:37:54.035 139680507647872 (IvectorExtractModel.cpp:65:ReadIvExtractFile) read ivector model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdIv.dat success
+INFO : 05-19 05:37:54.035 139680507647872 (IvectorExtractModel.cpp:66:ReadIvExtractFile) ivector FeatDim:72 IvectorDim:400 NumGauss:2048
+INFO : 05-19 05:37:54.035 139680507647872 (PerfChecker.cpp:105:Output) <IvModel Read> take 5365.205 ms
+WARN : 05-19 05:37:54.035 139680507647872 (IvectorExtractModel.cpp:79:ReadIvMeanFile) not find ivector mean file /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdIvMean.dat
+INFO : 05-19 05:37:54.035 139680507647872 (PerfChecker.cpp:105:Output) <IvMean Read> take 0.029 ms
+INFO : 05-19 05:37:54.036 139680507647872 (IvectorExtractModel.cpp:124:ReadTransformFile) read ivector trans model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdTrans.dat success
+INFO : 05-19 05:37:54.036 139680507647872 (IvectorExtractModel.cpp:125:ReadTransformFile) ivector Transform:400 x 400
+INFO : 05-19 05:37:54.036 139680507647872 (PerfChecker.cpp:105:Output) <IvTrans Read> take 0.705 ms
+INFO : 05-19 05:37:54.036 139680507647872 (PldaModel.cpp:58:Init) read plda model /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//SdPlda.dat success
+INFO : 05-19 05:37:54.036 139680507647872 (PerfChecker.cpp:105:Output) <PldaModel Read> take 0.812 ms
+INFO : 05-19 05:37:54.036 139680507647872 (SpeechAnalysisEngine.cpp:61:LoadCheckRoleLib) loading checkrole lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
+INFO : 05-19 05:37:54.036 139680507647872 (CheckRoleLib.cpp:56:Load) Load checkrole file /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa//checkrole.bin success
+INFO : 05-19 05:37:54.036 139680507647872 (SpeechAnalysisEngine.cpp:85:LoadEmotionEngine) loading emotion lib from /home/hcicloud/aicp/cu/aicp_asr_trans/models/data/sa/
+INFO : 05-19 05:37:54.411 139680507647872 (FreetalkEngine.cpp:50:InitSlmBlm) Loading second pass language model
+INFO : 05-19 05:37:54.416 139680507647872 (MyConstFst.cpp:64:LoadGFST) Language model format is GFST
+INFO : 05-19 05:37:56.077 139680507647872 (MyConstFst.cpp:64:LoadGFST) Language model format is GFST
+INFO : 05-19 05:37:56.077 139680507647872 (PerfChecker.cpp:105:Output) <LoadSlmBlm> take 1665.796 ms
+INFO : 05-19 05:37:56.136 139680507647872 (HclgFasterDecoder.cpp:53:HCLGFasterDecoder) HCLGFasterDecoder allocated 3.05M for Token Memory Pool
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(0) to 16000
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(22) to 500
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(23) to 10
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(20) to 30
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(4) to 18000
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(41) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(40) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(42) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(44) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(46) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 2
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 1
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 4
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 16
+INFO : 05-19 05:37:56.138 139680507647872 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 8
+INFO : 05-19 05:37:56.196 139678382360320 (HclgFasterDecoder.cpp:53:HCLGFasterDecoder) HCLGFasterDecoder allocated 3.05M for Token Memory Pool
+INFO : 05-19 05:37:56.196 139678365574912 (HclgFasterDecoder.cpp:53:HCLGFasterDecoder) HCLGFasterDecoder allocated 3.05M for Token Memory Pool
+INFO : 05-19 05:37:56.209 139678382360320 (ASRSession.cpp:253:SetIntParam) SetParam(0) to 16000
+INFO : 05-19 05:37:56.210 139678365574912 (ASRSession.cpp:253:SetIntParam) SetParam(0) to 16000
+INFO : 05-19 05:37:56.215 139679057983232 (HclgFasterDecoder.cpp:53:HCLGFasterDecoder) HCLGFasterDecoder allocated 3.05M for Token Memory Pool
+INFO : 05-19 05:37:56.216 139678373967616 (HclgFasterDecoder.cpp:53:HCLGFasterDecoder) HCLGFasterDecoder allocated 3.05M for Token Memory Pool
+INFO : 05-19 05:37:56.220 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(0) to 16000
+INFO : 05-19 05:37:56.220 139678373967616 (ASRSession.cpp:253:SetIntParam) SetParam(0) to 16000
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(31) to 1
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(32) to 0
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(35) to 0
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(41) to 1
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(40) to 0
+INFO : 05-19 05:41:28.684 139679057983232 (ASRSession.cpp:253:SetIntParam) SetParam(11) to 0
+INFO : 05-19 05:41:28.692 139679057983232 (ASRSession.cpp:1170:RecognizeOffline) ASRSession::RecognizeOffline: session:0x7f00c80008c0 data:0x7f0943233000 len:20879384
+INFO : 05-19 05:41:28.692 139679057983232 (OfflineRecognizer.cpp:391:InitVadEngine) Using SpeexVad Engine
